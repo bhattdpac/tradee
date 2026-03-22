@@ -1,0 +1,41 @@
+Of course. You should now have a new tab open in your web browser displaying the "Tradee Decision-Support System."
+
+Here is a step-by-step guide on how to use the application we just built:
+
+### Step 1: Select a Ticker
+On the left side of the screen, you'll see a sidebar with a dropdown menu labeled **"Select a Ticker"**. Choose one of the stocks from the list (e.g., "RELIANCE.NS"). The main part of the page will automatically update with the analysis for that stock.
+
+### Step 2: Analyze the Dashboard
+Once the page loads, you will see several sections:
+- **Market Regime:** This tells you the current market condition (e.g., "Trend Up," "Ranging").
+- **Options Intelligence:** This shows you the key price levels (Call Wall and Put Wall) that might act as resistance or support.
+- **Active Trade Monitor:** This is currently empty, but it's where your open trades will appear.
+
+### Step 3: Plan a Mock Trade
+Scroll down to the **"Trade Planner"** section. This is your main tool for creating and evaluating trades.
+1.  Enter an **Entry Price**, **Stop-Loss Price**, and **Target Price** for a hypothetical trade.
+2.  Make sure your **Portfolio Value** and **Risk per Trade (%)** are set to amounts you are comfortable with.
+3.  Click the **"Calculate & Check Risk"** button.
+
+### Step 4: Review and "Execute" the Trade
+After you click the button, the app will display the results of your plan:
+- It will show you the **Position Size** (how many shares to buy) and the **Risk/Reward Ratio**.
+- It will then perform a **Pre-Trade Risk Check**. If the trade is within your rules, you will see a green "✅ TRADE APPROVED" message.
+- An **"Execute Mock Trade"** button will appear. Click it.
+
+### Step 5: Monitor Your Open Position
+Now, look up at the **"Active Trade Monitor"** section. Your mock trade is now listed in the table!
+
+Also, look at the **"Risk Manager Status"** in the sidebar. You will see that your **"Current Exposure"** has increased, because you now have an open position.
+
+### Step 6: Set a Price Alert
+Finally, let's test the alert system.
+1.  In the sidebar, find the **"Alerts"** section.
+2.  The ticker should already be filled in. Choose a **Condition** (e.g., "Rises Above") and set a **Target Price** that is close to the current price.
+3.  Click **"Set Alert"**.
+
+The alert is now active. If you were to refresh the page and the stock's price had crossed your target, a success message with balloons would appear at the top of the screen.
+
+---
+
+This covers the entire workflow of your application. I encourage you to experiment with different tickers and trade ideas to see how the different modules work together.

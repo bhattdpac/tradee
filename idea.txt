@@ -1,0 +1,54 @@
+You are a senior quantitative trading systems architect.
+
+Evaluate the existing Market Intelligence Terminal and extend it into a professional trading decision-support system.
+
+Add the following modules:
+
+1. MARKET REGIME DETECTION
+   Classify the current market into:
+
+* Trend Up
+* Trend Down
+* Range
+* Volatile
+* Breakout
+
+Use price behavior, volatility, and momentum indicators.
+
+2. OPTIONS INTELLIGENCE ENGINE
+   Compute actionable signals from option chain data:
+
+* Put/Call walls
+* Support and resistance from OI
+* OI concentration zones
+* Max Pain drift
+* Writer dominance
+
+3. RISK MANAGEMENT ENGINE
+   Track:
+
+* Daily loss limit
+* Risk per trade
+* Exposure
+* Drawdown
+
+Provide warnings when limits are exceeded.
+
+4. TRADE PLANNER
+   Allow calculation of:
+
+* Entry
+* Stop loss
+* Target
+* Risk-reward ratio
+* Position size
+
+5. ACTIVE TRADE MONITOR
+   Track open trades and display real-time status.
+
+6. ALERT SYSTEM
+   Generate alerts for key events such as level breaks or volatility spikes.
+
+Maintain the existing UI but prioritize functionality over visual changes.
+
+Provide modular Python code.
